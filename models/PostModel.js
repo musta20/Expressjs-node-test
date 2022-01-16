@@ -1,6 +1,6 @@
 'use strict';
 const mongoose = require('./Db').mongoose;
-const Joi = require('@hapi/joi');
+const Joi = require('joi');
 
 var schema =  new mongoose.Schema({
     title:{type:String,min:5,max:20,required: true},
